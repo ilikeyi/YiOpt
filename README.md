@@ -7,7 +7,7 @@ Yi's Windows system optimization script, PowerShell.
 
 使用前，建议您在全新系统下运行此脚本。
 
-***
+<br />
 
 # 主要特征：
 - 遵循开源协议，不受版权限制
@@ -15,7 +15,7 @@ Yi's Windows system optimization script, PowerShell.
 - 可“在线升级”和修复，多服务器可选
 - 可根据用户需求定制的优化脚本，可制作专属升级包
 
-***
+<br />
 
 # 已预置语言包：
 * United States – English
@@ -25,14 +25,14 @@ Yi's Windows system optimization script, PowerShell.
 * 日本 - 日本語
 * 俄语
 
-***
+<br />
 
 # 如何下载
 
 * 从 GitHub 里下载
 * 从作者官方网站下载
 
-***
+<br />
 
 # 支持的操作系统
 
@@ -46,7 +46,7 @@ Yi's Windows system optimization script, PowerShell.
 
 或系统自带 PowerShell 5.1 以上的操作系统
 
-***
+<br />
 
 ## 如何使用：
 
@@ -66,7 +66,7 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
   * 运行：`Set-Location -Path "D:\Yi"`
   * 运行：`.\Yi.ps1`
 
-***
+<br />
 
 # 如何运行特定功能
 
@@ -92,7 +92,7 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
 .\Yi.ps1 -Functions RestorePointCreate "FirstExperience -Force",  DiskCleanup
 ```
 
-***
+<br />
 
 # 如何自定义
 
@@ -105,7 +105,7 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
 
 参阅：Modules\Functions\Engine.FirstExperience.psm1
 
-***
+<br />
 
 # 核心功能
 
@@ -117,6 +117,8 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
   * 图片
   * 视频
 
+<br />
+
 * 添加桌面图标
   * 计算机
   * 回收站
@@ -125,6 +127,8 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
   * 网络
   * 上帝模式
   * Internet Explorer
+
+<br />
 
 * 优化
 
@@ -160,7 +164,6 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
     * 内存压缩
     * 预取预启动
 
-
   * 优化网络
     * 恢复 IE 设置代理不生效
     * 禁用 IE 自动检查设置
@@ -170,7 +173,6 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
     * QOS 服务
     * 网络调优功能
     * ECN 功能
-
 
   * 文件资源管理器
     * 启用 每个资源管理器窗口使用单独进程
@@ -255,13 +257,19 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
     * 启用 3389 远程桌面
     * 打开 SMB 文件共享
 
+<br />
+
   * 清理
     * 发送到
     * 系统日志
     * 磁盘清理
     * WinSxS 
 
+<br />
+
   * 优化服务
+
+<br />
 
  * 系统自带软件
     * 关闭 Windows 更新
@@ -282,6 +290,8 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
     * 删除 Edge
     * 删除 小组件
 
+<br />
+
 * 删除 UWP 应用
     * 阻止重新安装应用程序
     * 隐藏 在 "设置" 应用中向我推荐内容
@@ -289,6 +299,21 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
     * 阻止安装“建议的应用程序”
     * 禁用 有关如何设置设备的建议
 
+***
+
+# 常见问答：
+
+```
+Q：选择语言包后显示乱码，如何解决？
+A：使用 Windows Terminal；
+   全英文系统切换中文简体，修改系统区域设置。
+   最新 Windows 11 Insider Preview（大于版本号 22523），已解决在纯英文下运行的乱码问题。
+```
+
+```
+Q：如何制作其它语言包？
+A：复制语言包，将目录更改为区域语言标记后翻译。
+```
 
 
 
